@@ -1,7 +1,11 @@
-#1、键盘任意输入，判断是数字或者是字符串 并输出
-a=input('请输入一个内容')
-if a.isdigit():
-    print('输入一个数字',a)
-else:print("输入的是字符串：",a)
+#1、50以内逢7避过
+i=1
+while i<51:
+    if i%7==0 or '7'in str(i):
+        print('过')
+    else:
+        print(i)
+    i=i+1
+
 
 

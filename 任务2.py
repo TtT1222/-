@@ -1,11 +1,11 @@
-#2、成绩管理  判断输入的内容如果大于80和小于100打印优秀，如果 大于60 小于80打印良好
-# a=input("输入一个成绩")
-a=int(input("输入一个成绩"))
-a=int(a)
-if a>80:
-    print('优秀')
-elif a>60:
-    print('良好')
+#2、 循环实现阶乘
+i=1
+sum=1
+while i<6:
+    i=i+1
+    sum = sum * i
+    print(sum)
+
 
 
 
